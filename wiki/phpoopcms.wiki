@@ -1,4 +1,4 @@
-#summary The documentation of getting started with phpoopcms.
+#summary An introduction to phpoopcms.
 
 = Introduction =
 
@@ -6,14 +6,3 @@ This is just another open source CMS available online.
 It is just taking its initial baby steps and stading learn on its own feet. 
 Hope to see it growing big with healthy and efficient manner.
 Will work harder to get it all the available nutrition and see it standing on its own feet soon.
-
-= Getting started =
-
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
