@@ -1,0 +1,447 @@
+body {
+	background: #90BF49;
+	color: #444;
+	font-family: "Verdana";
+	font-size: 75%;
+	margin: 0 auto
+}
+
+h1,h2,h3,p,ul,li,div,a,img {
+	border: 0 none;
+	margin: 0;
+	padding: 0
+}
+
+h1 {
+	font-family: Georgia;
+	font-size: 2.5em
+}
+
+h2 {
+	font-size: 1.45em
+}
+
+h3 {
+	font-size: .9em;
+	font-weight: 400
+}
+
+p {
+	overflow: auto;
+	padding: 5px
+}
+
+ul,li {
+	list-style: none
+}
+
+#container {
+	margin: 0 auto;
+	width: 780px
+}
+
+#header {
+	line-height: 60px
+}
+
+#header .title {
+	font-family: Georgia;
+	font-size: 3em;
+	font-weight: 800
+}
+
+#navbar {
+	background: #B5D932;
+	font-size: .95em;
+	font-weight: 700;
+	height: 23px;
+	text-align: center
+}
+
+#navbar ul,#navbar li {
+	float: left;
+	margin: 0 auto
+}
+
+#navbar a {
+	background: #B5D932;
+	border-bottom: 1px solid #B5D932
+}
+
+#navbar a:hover {
+	background: #CAF238;
+	border-bottom: 1px solid #B5D932;
+	text-decoration: underline
+}
+
+#navbar li a:link,#navbar li a:visited {
+	display: inline;
+	float: left;
+	line-height: 22px;
+	padding: 0 15px;
+	width: auto
+}
+
+#wrapper {
+	overflow: auto
+}
+
+#maincontent {
+	float: left;
+	margin-right: 10px;
+	overflow: hidden;
+	padding: 5px;
+	width: 460px
+}
+
+#maincontent .desc {
+	background: #B5D932;
+	font-style: italic;
+	font-weight: 700;
+	margin: 15px 0;
+	padding: 5px
+}
+
+#maincontent blockquote {
+	display: block;
+	font-family: Georgia;
+	font-size: 1.3em;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.6em;
+	margin: 30px;
+	padding: 0
+}
+
+#maincontent blockquote .qt1 {
+	float: left;
+	font-family: Verdana;
+	font-size: 7em;
+	height: 45px;
+	margin-bottom: -50px;
+	margin-top: -20px;
+	padding-top: 45px
+}
+
+#maincontent blockquote .qt2 {
+	float: right;
+	font-family: Verdana;
+	font-size: 7em;
+	height: 25px;
+	margin-top: 0;
+	padding-top: 10px
+}
+
+#maincontent .quoted {
+	clear: both;
+	display: block;
+	float: right;
+	font-family: Georgia;
+	font-size: 1.4em;
+	font-weight: 700;
+	margin-bottom: 15px
+}
+
+#maincontent a {
+	border-bottom: 1px dotted
+}
+
+#maincontent p {
+	letter-spacing: .06em;
+	line-height: 1.5em;
+	margin: 5px 0
+}
+
+#maincontent h1 {
+	line-height: 1.2em;
+	margin: 25px 0
+}
+
+#maincontent h3 {
+	line-height: 1.5em;
+	margin: 5px 0
+}
+
+#maincontent ul,#maincontent li.dot {
+	line-height: 1.5em;
+	list-style-type: circle;
+	margin-left: 10px;
+	padding-left: 10px
+}
+
+#maincontent a.cat {
+	background: #CAF238;
+	border-bottom: 1px ridge;
+	border-right: 1px ridge;
+	font-size: 1em;
+	font-weight: 700;
+	padding: 0 5px
+}
+
+#maincontent .code {
+	background: #e5e5e5;
+	border: 1px dashed;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 700;
+	margin: 10px 5px
+}
+
+#maincontent .postfoot {
+	background: #B5D932;
+	clear: both;
+	font-weight: 700;
+	margin: 10px 0
+}
+
+#maincontent .updates {
+	background: #CAF238;
+	clear: both;
+	font-size: .9em;
+	font-style: italic;
+	margin: 5px 0
+}
+
+.footerspace {
+	padding: 20px 0
+}
+
+#comments {
+	margin-top: 10px;
+}
+
+#comments .odd {
+	border: 1px solid #DEF2B3
+}
+
+#comments .commentfoot {
+	background: #B5D932;
+	border: 1px solid #DEF2B3;
+	font-weight: 400;
+	margin: 0 0 10px;
+	padding: 2px 10px;
+	text-align: right
+}
+
+#comments h3 {
+	background: #B5D932;
+	border: 1px solid #DEF2B3;
+	font-size: 1em;
+	margin: 0;
+	padding: 0 5px;
+}
+
+#comments p {
+	margin: 0;
+	background: #B5D932;
+	border: 1px solid #DEF2B3
+}
+
+#navcol {
+	float: right;
+	overflow: hidden;
+	padding: 5px 0;
+	width: 300px
+}
+
+#navcol .box {
+	background: #90BF49;
+	border: 2px solid #B5D932;
+	clear: both;
+	margin-bottom: 10px;
+	overflow: auto
+}
+
+.box img.myimage {
+	border: 4px solid #444;
+	float: left;
+	margin: 0 0 5px;
+	vertical-align: top
+}
+
+.box .aboutme {
+	float: left;
+	margin: 0 5px;
+	width: 140px
+}
+
+.box .left {
+	float: left;
+	padding: 5px;
+	width: 138px
+}
+
+.box .full {
+	float: left;
+	padding: 5px;
+	width: 286px
+}
+
+.box .full li {
+	border-bottom: 1px solid #DEF2B3;
+	padding: 3px;
+	width: 280px
+}
+
+.box .left li {
+	border-bottom: 1px solid #DEF2B3;
+	padding: 3px;
+	width: 132px
+}
+
+.box h2 {
+	background: #B5D932;
+	border-bottom: 2px solid #444;
+	padding: 2px 5px
+}
+
+.box #event_time {
+	font-weight: bolder
+}
+
+#footer {
+	background: #B5D932;
+	clear: both;
+	height: 30px;
+	margin-top: 10px;
+	padding-top: 5px;
+	text-align: center
+}
+
+.myform {
+	margin: 0 auto;
+	padding: 10px
+}
+
+.myform .clear {
+	clear: both;
+	height: 10px
+}
+
+#basic {
+	border: solid 5px #CAF238
+}
+
+#basic label {
+	display: block;
+	float: left;
+	font-weight: 700;
+	text-align: right;
+	width: 120px
+}
+
+#basic .small {
+	display: block;
+	font-size: .95em;
+	font-weight: 400;
+	text-align: right;
+	width: 120px
+}
+
+#basic input.txt,#basic textarea {
+	float: left;
+	font-family: inherit;
+	font-size: 1em;
+	margin: 2px 0 10px 10px;
+	width: 275px
+}
+
+#basic .selectchk {
+	float: left;
+	margin: 2px 0 10px 10px;
+	width: 275px
+}
+
+#basic .selectchk .chk {
+	float: left;
+	width: 132px
+}
+
+#basic textarea {
+	height: 100px
+}
+
+#basic input.btn {
+	background: #e5e5e5;
+	border: solid 1px #666;
+	clear: both;
+	font-size: .95em;
+	font-weight: 700;
+	margin-left: 150px;
+	padding: 4px 6px
+}
+
+#tags span {
+	padding: 0 2px
+}
+
+.tag1 {
+	font-size: .85em
+}
+
+.tag2 {
+	font-size: 1em
+}
+
+.tag3 {
+	font-size: 1.15em
+}
+
+.tag4 {
+	font-size: 1.25em
+}
+
+#flickr_badge_uber_wrapper {
+	font-size: .95em;
+	text-align: center;
+	width: 296px
+}
+
+#flickr_badge_wrapper {
+	overflow: auto;
+	padding: 10px 0
+}
+
+.flickr_badge_image {
+	float: left;
+	margin: 2px 0;
+	text-align: center;
+	width: 98px
+}
+
+.flickr_badge_image img {
+	border: 1px solid #000
+}
+
+#flickr_www {
+	display: block;
+	padding: 0 10px
+}
+
+#flickr_badge_source {
+	padding: 0
+}
+
+h2 .paging {
+	font-size: 1.2em
+}
+
+#maincontent h1 a:hover,#comments .even {
+	background: #CAF238
+}
+
+a,#flickr_badge_uber_wrapper a,#flickr_badge_uber_wrapper a:hover {
+	text-decoration: none
+}
+
+.warning {
+	color: red;
+	display: block;
+	font-size: .95em;
+	font-weight: 600;
+	text-align: right;
+	width: 120px
+}
+
+.clear {
+	clear: both
+}

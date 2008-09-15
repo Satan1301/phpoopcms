@@ -1,0 +1,244 @@
+body{
+    margin:0 auto;
+    font-family:"Verdana";
+    font-size:70%;
+}
+h1, h2, h3, p, ul, li, div, a, img{
+    margin:0;
+    padding:0;
+    border:0;
+}
+h1{
+    font-size:2em;
+}
+h1.del{
+	background:#FF0000;
+    font-size:2em;
+}
+h3{
+    font-size:1.1em;
+}
+h2{
+    font-size:1.2em;
+}
+a{
+    text-decoration:none;
+}
+p{
+    padding:5px;
+}
+ul, li{
+    list-style:none;
+}
+/* Lay out design Start */
+#container{
+    width:780px;
+    margin:0 auto;
+}
+#header{
+    height:40px;
+    line-height:40px;
+}
+#navbar{
+    background:#EFEFEF;
+    height:25px;
+    text-align:center;
+}
+	/* Navigation Bar on top start */
+	#navbar ul, #navbar li{ 
+		float:left;
+		margin:0 auto;
+	}
+	#navbar a{
+		background:#efefef;
+		border-bottom:3px solid #efefef;
+	}
+	#navbar a:hover{
+		background:#FFF;
+		border-bottom:3px solid #000;
+	}
+	#navbar li a:link, #navbar li a:visited {
+		line-height:22px; 
+		display:inline; 
+		float:left; 
+		width:auto; 
+		padding:0px 15px;
+	}
+	/* Navigation Bar on top end */
+#wrapper{
+    overflow:auto;
+}
+#maincontent{
+    float:left;
+    padding:5px 0px;
+    margin-right:10px;
+    width:470px;
+}
+	#maincontent .desc{
+		background:#EFEFEF;
+		font-style:italic;
+		font-weight:bold;
+		margin:15px 0;
+		padding:5px;
+	}
+	#maincontent h1 a:hover{
+		background:#EFEFEF;
+	}
+	#maincontent a{
+		border-bottom:1px dotted;
+	}
+	#maincontent p{
+		margin:5px 0;
+	}
+	#maincontent h3{
+		margin:5px 0;
+		line-height:1.5em;
+	}
+	#maincontent a.cat{
+		background:#EFEFEF;
+		padding:0 5px;
+		border-bottom:1px ridge;
+		border-right:1px ridge;
+	}
+	#maincontent .code{
+		background:#EFEFEF;
+		font-weight:bold;
+		font-family:"Courier New", Courier, monospace;
+		margin:10px 5px;
+		border:1px dashed;
+	}
+	#maincontent .postfoot{
+		font-weight:bold;
+		background:#EFEFEF;
+		margin:10px 0;
+	}
+	.footerspace{
+		padding:20px 0;
+	}
+	#comments{
+		margin:10px;
+	}
+		#comments .even{
+			background:#EFEFEF;
+		}
+		#comments .odd{
+			border:1px solid #EFEFEF;
+		}
+		#comments .commentfoot{
+			font-weight:normal;
+			background:#FFFFFF;
+			border:1px solid #EFEFEF;
+			margin:0 0 10px 0;
+			padding:2px 10px;
+			text-align:right;
+		}
+			#comments h3{
+				border:1px solid #EFEFEF;
+				margin:0;
+				padding:0 5px;
+			}
+			#comments p{
+				margin:0;
+			}
+	.paging{
+		font-size:1.2em;
+	}
+#navcol{
+    float:right;
+    padding:5px 0px;
+    width:300px;
+}
+#navcol .box{
+    clear:both;
+    margin-bottom:10px;
+    overflow:auto;
+    border:2px solid #efefef;
+}
+.box .left{
+    padding:5px;
+    float:left;
+    width:136px;
+}
+.box li{
+    padding:3px 0px;
+    border-bottom:1px solid #aaa;
+    width:140px;
+}
+.box h2{
+    padding:2px 5px;
+    border-bottom:5px solid #efefef;
+}
+#footer{
+    height:35px;
+}
+/* Lay out design End */
+/* Form */
+.myform {
+    margin:0 auto;
+    width:435px;
+    padding:10px;
+}
+.myform .clear{
+	clear:both;
+	height:10px;
+}
+#basic {
+    border:solid 5px #EFEFEF;
+}
+#basic label {
+    display:block;
+    font-weight:bold;
+    text-align:right;
+    width:120px;
+    float:left;
+}
+#basic .small {
+    display:block;
+    font-size:11px;
+    font-weight:normal;
+    text-align:right;
+    width:120px;
+}
+#basic input.txt, #basic textarea {
+    font-family:"Tahoma";
+    font-size:1em;
+    float:left;
+    width:275px;
+    margin:2px 0 10px 10px;
+}
+#basic .selectchk{
+    float:left;
+    width:275px;
+    margin:2px 0 10px 10px;
+}
+#basic .selectchk .chk{
+	float:left;
+	width:132px;
+}
+#basic textarea{
+	height:100px;
+}
+#basic input.btn {
+    clear:both;
+    margin-left:150px;
+    background:#EFEFEF;
+    border:solid 1px #666666;
+    font-size:11px;
+    font-weight:bold;
+    padding:4px 6px;
+}
+#tags span{
+    padding:0 2px;
+}
+.tag1{
+    font-size:0.85em;
+}
+.tag2{
+    font-size:0.95em;
+}
+.tag3{
+    font-size:1.15em;
+}
+.tag4{
+    font-size:1.25em;
+}
