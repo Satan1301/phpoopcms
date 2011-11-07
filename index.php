@@ -18,6 +18,7 @@
 	require_once(INCLUDES."submit.php");
 ?>
 <?php
+	/* controller to decide which class to load */
 	if(isset($_GET['category'])){
 		require_once(CLASSES.'category.php');
 		require_once(CLASSES.'post.php');
