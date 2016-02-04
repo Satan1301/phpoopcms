@@ -1,0 +1,2 @@
+This is the stepping stone to build a complete full fledged CMS. Its going to be OOP based CMS where in there will be lots of option to add add-ons in the future and will be as easy to use by any user.
+Some of the addons will be galleries in flash for flickr and picasa api
